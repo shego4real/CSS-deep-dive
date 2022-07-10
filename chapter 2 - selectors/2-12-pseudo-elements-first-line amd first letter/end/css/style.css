@@ -1,0 +1,20 @@
+body {
+  padding: 1% 26.5%;
+  background-color: #e0eef5;
+  color: #333;
+}
+
+/* Pseudo-elements */
+p:nth-child(1)::first-line {
+  color: blue;
+  font-size: 24px;
+  text-decoration: underline;
+}
+p:nth-child(1)::first-letter {
+  float: left;
+  background-color: gray;
+  margin: 4px 10px;
+  padding: 5px 10px;
+  line-height: 1;
+  font-size: 40px;
+}

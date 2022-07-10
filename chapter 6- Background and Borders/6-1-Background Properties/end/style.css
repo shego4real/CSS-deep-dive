@@ -1,0 +1,4 @@
+.box {
+  border: 2px solid red;
+  background: rgb(241, 241, 161) url("./img/mike.png") no-repeat 50% 50%;
+}

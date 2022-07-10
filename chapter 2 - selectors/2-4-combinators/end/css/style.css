@@ -1,0 +1,33 @@
+body {
+	padding-top: 35px;
+	font: 1.1em/1.5 sans-serif;
+}
+.main {
+	margin: auto;
+	padding: 10px 20px 20px;
+	width: 760px;
+	border: 1px solid;
+}
+
+/* Using Combinators */
+
+/* .main > h1 {
+	background-color: tomato;
+	color: white;
+}
+p > a {
+	background-color: blue;
+	color: white
+} */
+/* h1 + a {
+	background-color: aqua;
+	color: white;
+}
+h2 + p {
+	background-color: aqua;
+	color: white;
+} */
+h2 ~ p {
+	background-color: tomato;
+	color: white;
+}

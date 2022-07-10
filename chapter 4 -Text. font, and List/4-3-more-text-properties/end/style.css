@@ -1,0 +1,31 @@
+body {
+  padding: 1em 6em;
+  font: 1.2em/1.5 sans-serif;
+  background-color: #dfdfdf;
+}
+
+p {
+  width: 17.5em;
+  padding: 1em;
+  background: #fff;
+  border: 1px solid #cbcbcb;
+}
+
+/* Text Styles
+------------------------------------------------------- */
+
+h1 {
+  color: #fff;
+  font-size: 3.1em;
+  text-shadow: 1px 2px 2px red, 2px 2px 2px blue;
+}
+
+.text-overflow {
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.word-wrap {
+  background-color: lightblue;
+  word-wrap: break-word;
+}

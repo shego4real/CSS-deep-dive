@@ -1,0 +1,21 @@
+/* Relative Length Units 
+--------------------------------------------- */
+
+/* em */
+html {
+  font-size: 12px;
+}
+body {
+  font-size: 2em;
+}
+.box {
+  font-size: 1.2rem;
+}
+p {
+  border: 2px solid red;
+  font-size: 150%;
+}
+
+/* rem====>root em */
+
+/* percentage */

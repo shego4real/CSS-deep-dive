@@ -1,0 +1,23 @@
+div {
+  margin: 50px auto;
+  font: 1.1em/1.5 sans-serif;
+  box-sizing: border-box;
+}
+
+.sketch-img {
+  width: 700px;
+  height: 500px;
+  border-radius: 10px;
+  background: url("./img/smiley.png") no-repeat right bottom,
+    url("./img/pencil.png") no-repeat, url("img/texture.jpg") no-repeat #d6bb80;
+}
+
+.box {
+  height: 500px;
+  width: 700px;
+  background: url("./img/full-bg.jpg") no-repeat center;
+  background-size: cover;
+  padding: 30px;
+  border: 15px solid rgba(35, 65, 95, 0.5);
+  background-clip: content-box;
+}

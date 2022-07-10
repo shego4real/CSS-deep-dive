@@ -1,0 +1,38 @@
+body {
+  padding: 1% 26.5%;
+  background-color: #e0eef5;
+  color: #333;
+}
+p,
+div {
+  margin: 55px 0;
+  font: 3em sans-serif;
+}
+a {
+  color: royalblue;
+  text-decoration: none;
+  font: 2.25em sans-serif;
+}
+
+/* Pseudo-elements */
+p::before {
+  content: "\2706";
+}
+a::before {
+  content: url(../img/pdf.png);
+}
+
+a,
+p,
+div {
+  border: 2px solid red;
+}
+div::before,
+div::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: royalblue;
+}

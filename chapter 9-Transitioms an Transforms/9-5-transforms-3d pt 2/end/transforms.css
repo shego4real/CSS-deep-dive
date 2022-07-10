@@ -1,0 +1,23 @@
+body {
+  perspective: 800px;
+  perspective-origin: center;
+}
+
+.wrap {
+  transition: all 2s ease;
+}
+
+.wrap div {
+  position: absolute;
+}
+
+.side-a {
+  z-index: 10;
+}
+
+.side-b {
+}
+
+.wrap:hover {
+  transform: rotate3d(1, 0, 1, 65deg);
+}

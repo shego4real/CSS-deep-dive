@@ -1,0 +1,15 @@
+/* ------------------------
+	Radial Gradients
+--------------------------- */
+
+.box {
+  width: 700px;
+  height: 400px;
+
+  margin: 40px auto;
+  background: radial-gradient(
+    circle closest-corner at 95% 10%,
+    rgb(214, 180, 42),
+    rgb(28, 23, 101)
+  );
+}

@@ -1,0 +1,11 @@
+h1{
+    background-color: steelblue;
+    color: white;
+    font-size: 30px
+}
+p{
+    background-color: lightcoral;
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+}

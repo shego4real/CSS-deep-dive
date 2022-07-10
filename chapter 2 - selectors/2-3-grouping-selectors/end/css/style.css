@@ -1,0 +1,27 @@
+body {
+	padding-top: 50px;
+	text-align: center;
+}
+
+/* Shapes
+.square, .circle, .ellipse{
+  display: inline-block;
+  margin: 0 15px;
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+}
+
+.circle, .ellipse {
+  border-radius: 50%;
+}
+
+.ellipse {
+ 
+ height: 120px;
+}  */
+h1, p{
+  background-color: steelblue;
+  color: white;
+}
+

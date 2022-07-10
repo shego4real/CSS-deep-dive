@@ -1,0 +1,17 @@
+/* ------------------------
+	Linear Gradients
+--------------------------- */
+
+.box {
+  width: 500px;
+  height: 500px;
+  margin: 35px auto;
+  border-radius: 15px;
+  background: -webkit-linear-gradient(
+    top right,
+    rgb(237, 61, 234) 25%,
+    rgb(234, 126, 221) 55%,
+    rgb(212, 158, 214) 65%,
+    rgb(120, 7, 113) 85%
+  );
+}

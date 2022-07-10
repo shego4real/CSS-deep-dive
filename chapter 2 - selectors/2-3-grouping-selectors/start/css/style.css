@@ -1,0 +1,31 @@
+body {
+	padding-top: 50px;
+	text-align: center;
+}
+
+/* Shapes */
+.square {
+  display: inline-block;
+  margin: 0 15px;
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+}
+
+.circle {
+  display: inline-block;
+  margin: 0 15px;
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+  border-radius: 50%;
+}
+
+.ellipse {
+  display: inline-block;
+  margin: 0 15px;
+  width: 200px;
+  height: 120px;
+  background-color: lightcoral;
+  border-radius: 50%;
+} 

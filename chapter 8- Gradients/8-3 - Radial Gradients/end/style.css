@@ -1,0 +1,17 @@
+/* ------------------------
+	Radial Gradients
+--------------------------- */
+
+.box {
+  width: 500px;
+  height: 300px;
+  margin: 35px auto;
+  background: -webkit-radial-gradient(
+    20% 90%,
+    circle,
+    rgb(11, 186, 63),
+    rgb(59, 16, 179),
+    rgb(235, 23, 34),
+    rgb(20, 152, 175)
+  );
+}

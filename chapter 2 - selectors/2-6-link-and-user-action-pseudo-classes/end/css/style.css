@@ -1,0 +1,76 @@
+body {
+	margin: 0;
+	padding: 1% 24%;
+	font: 1.1em/1.5 sans-serif;
+}
+a, p {
+	padding: 3px;
+}
+form {
+	margin-top: 30px;
+}
+input {
+	font-size: inherit;
+}
+input[type="text"] {
+	display: block;
+	margin-bottom: 15px;
+	padding: 10px;
+	width: 250px;
+	border: 2px solid steelblue;
+}
+input[type="submit"] {
+	width: 100px;
+	height: 40px;
+	border: none;
+	background: steelblue;
+	color: white;
+	font-size: inherit;
+}
+
+/* Pseudo-classes */
+
+
+
+
+
+
+
+
+
+
+
+
+a:link {
+	background-color: teal;
+	color: white;
+	font-size: 1.8rem;
+}
+/* a:visited {
+	background-color: blueviolet;
+	color: white;
+	font-size: 1.3rem;
+} */
+a:active {
+	background-color: aqua;
+	color: white;
+}
+/* a:hover {
+	background-color: tomato;
+}
+p:hover{
+	background-color: tomato;
+} */
+/* input:focus {
+	background-color: green;
+	padding: 5px 12px;
+	text-align: center;
+} */
+:focus {
+	background-color: tomato;
+	color: white;
+}
+:target{
+	background-color: steelblue;
+	color: white;
+}

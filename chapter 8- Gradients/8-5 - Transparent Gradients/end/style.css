@@ -1,0 +1,13 @@
+/* ------------------------
+	Transparent Gradients
+--------------------------- */
+
+html {
+  height: 100%;
+}
+
+body {
+  background: -webkit-linear-gradient(rgb(212, 194, 194), transparent),
+    url("./bg.jpg");
+  background-size: cover;
+}

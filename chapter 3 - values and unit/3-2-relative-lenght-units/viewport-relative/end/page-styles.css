@@ -1,0 +1,23 @@
+/* Page Styles
+ --------------------------------------------- */
+
+body {
+  width: 75%;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  margin: 0 auto;
+  padding-top: 1em;
+  background: #000;
+  border: 2px solid red;
+}
+
+div {
+  height: 100px;
+  display: inline-block;
+  background: #fff;
+}
+
+div:first-of-type {
+  margin-left: 0;
+}

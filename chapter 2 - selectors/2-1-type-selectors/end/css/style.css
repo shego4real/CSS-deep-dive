@@ -1,0 +1,22 @@
+/* ============================
+UNIVERSAL SELECTOR
+=================================*/
+/* *{
+    color: red;
+} */
+/* ============================
+ELEMENT SELECTOR
+=================================*/
+h1{
+    background-color: steelblue !important;
+}
+p{
+    background-color: tomato;
+    color: white;
+}
+span{
+    background-color: yellow;
+}
+h1{
+    background-color: green !important;
+}

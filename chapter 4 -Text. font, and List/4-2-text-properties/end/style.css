@@ -1,0 +1,13 @@
+body {
+  padding: 2em 6em;
+}
+
+/* Text Styles
+--------------------------------------------- */
+p {
+  font: 24px/30px sans-serif;
+  text-align: justify;
+  text-decoration: none;
+  white-space: pre;
+  border: 2px solid blue;
+}

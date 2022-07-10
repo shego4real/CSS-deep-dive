@@ -1,0 +1,21 @@
+/* Numeric and Textual Values
+--------------------------------------------- */
+
+body {
+  font: normal 1.2em/1.5 sans-serif; /* 19px */
+  /* padding: 2em 0; */
+}
+
+div {
+  border: 2px solid red;
+  width: 700px;
+  padding: 2em;
+  color: green;
+}
+p {
+}
+a {
+}
+strong {
+  color: red;
+}

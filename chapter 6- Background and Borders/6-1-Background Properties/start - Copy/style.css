@@ -1,0 +1,12 @@
+.box {
+  border: 2px solid red;
+  opacity: 0.5;
+  background: url("./img/bg.png") no-repeat 50% 90%;
+}
+.inside {
+  width: 400px;
+  height: 200px;
+  background-color: blue;
+  background-image: inherit;
+  border: 3px solid orangered;
+}
